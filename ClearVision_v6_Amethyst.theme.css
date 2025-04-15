@@ -104,3 +104,19 @@
 	--user-modal-sepia: var(--background-sepia); /* user modal background sepia (0 - 100%) [default: var(---background-sepia)] */
 	--user-modal-blur: calc(var(--background-blur) + 3px); /* user modal background blur [default: calc(var(--background-blur) + 3px)] */
 }
+
+/* SETTINGS SCREEN BACKGROUND FIXES */
+.visual-refresh .standardSidebarView__23e6b {
+    background: rgba(0,0,0, calc(var--background-shading) * 0.4);
+}
+.visual-refresh .sidebarRegionScroller__23e6b {
+    background: rgba(0,0,0, calc(var--background-shading) * 0.4));
+}
+/* FIX SERVER LIST PANEL */
+.visual-refresh .wrapper_ef3116 {
+    background-color: rgba(0,0,0, calc(var--background-shading) * 0.4));
+}
+/* FIX USER/SETTINGS PANEL IN LOWER LEFT */
+.visual-refresh .panels_c48ade {
+   background: rgba(0,0,0, calc(var--background-shading) * 0.4));
+}
